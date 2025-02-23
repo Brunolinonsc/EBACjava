@@ -6,6 +6,7 @@ public class App {
  */
         Pessoa pessoa1 = new Pessoa("Bruno Lino", 28);
         Carro carro1 = new Carro("Fiat", "Branco", 2008, 1.0, 9.568);
+        System.out.println("Abaixo esta os dados de Bruno, marca de seu carro, cor do carro, potencia do carro, ano do carro e a idade de Bruno.");
         System.out.println("Nome: " + pessoa1.getNome());
         System.out.println("Idade: " + pessoa1.getIdade());
         System.out.println("Marca: " + carro1.getMarca());
